@@ -11,6 +11,7 @@ CREATE TABLE Books
     price DECIMAL(10,2) NOT NULL
 );
 
+
 INSERT INTO Books (title, author, publisher, isbn, publication_year, genre, available, price)
 VALUES
     ('The Great Gatsby', 'F. Scott Fitzgerald', 'Scribner', '9780743273565', 1925, 'Fiction', 1, 10.99),
